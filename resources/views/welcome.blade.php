@@ -43,6 +43,14 @@
             </a>
             @endif
             @endauth
+
+            <!-- Agregar enlace a productos -->
+            <a
+                href="{{ route('productos.index') }}"
+                class="inline-block px-5 py-1.5 bg-blue-600 text-white rounded-sm text-sm leading-normal hover:bg-blue-700 transition duration-300 ease-in-out">
+                Ver Productos
+            </a>
+
         </nav>
         @endif
     </header>
